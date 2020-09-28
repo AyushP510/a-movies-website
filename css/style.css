@@ -1,0 +1,152 @@
+body{
+    height: 1000px;
+    font-family: "Forum" ;
+    font-size: 22px;
+    background-color: black;
+}
+header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: gold;
+}
+header h1{
+    background: url(../img/logo.png) no-repeat;
+    height: 80px;
+    width: 200px;
+    text-indent: -9999px;
+    float: left;
+}
+nav{
+    background-color: gold;
+    float: right;
+    padding: 20px;
+}
+nav ul{
+    padding: 0%;
+    list-style: none;
+    margin: 0;
+    position: relative;
+}       
+nav ul li{
+    float: right;
+    padding: 0%;
+    margin: 20px;
+    font-size: 25px;
+}
+nav ul li a{
+    padding: 6px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+nav ul a:hover{
+    background: indigo;
+}
+nav ul li ul{
+    padding: 0%;
+    list-style: none;
+    margin: 0;
+    position: relative;
+    display: none;
+}
+nav ul li ul li{
+    float: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
+.hero{
+    /*background: url(../img/collage.jpg);*/
+    height: 550px;
+    margin:0;
+}
+.hero img{
+    width: 100%;
+}
+.hero h1{
+    /*margin-top: 60px;*/
+    text-align: center;
+    color: white;
+}
+
+#indexContainer{
+    clear: both;
+    margin-top: 40px;
+}
+.container_12{
+    clear: both;
+    margin-top: 200px;
+}
+
+
+.grid_6{
+    background-color: khaki;
+}
+main div h1{
+    padding: 10px;
+}
+main div h2{
+    padding: 10px;
+}
+aside h2{
+    padding: 10px;
+}
+aside h2 a{
+    text-decoration: none;
+    color: lightcoral;
+}
+aside h2 a:hover{
+    color: black;
+}
+
+.grid_6 a img{
+    width: 200px;
+    padding: 10px;
+}
+.grid_6 a .movies{
+    width: 430px;
+}
+
+footer{
+    background-color: rgb(40, 136, 226);
+    margin: auto;
+    clear: both;
+}
+footer h1{
+    float: right;
+    text-shadow: 1px 2px 2px white;
+    margin-right: 20px;
+}
+footer ul{
+    float: left;
+    list-style: none;
+    padding-left: 100px;
+}
+footer ul li{
+    text-decoration: none;
+}
+
+
+
+.fa{
+    margin: 20px;
+    padding: 5px;
+    width: 40px;
+    text-decoration: none;
+}
+.fa:hover {
+    color: red;
+  }
+
+  .fa-facebook {
+    color: white;
+  }
+  .fa-twitter {
+    color: white;
+  }
+  .fa-instagram{
+      color: white;
+  }
+
