@@ -1,3 +1,5 @@
+*A-MOVIES*
+
 It is a website where people can buy movies on rents 
 Or they can start a membership to watch any number of movies
 -------------------------------------------------------------
